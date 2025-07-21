@@ -17,7 +17,7 @@ export default function Signup() {
 
   const handleSignup = async (data) => {
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/signup", data);
+      const response = await axios.post("https://typingapp-backend.onrender.com/api/auth/signup", data);
       alert("Signup successful! Now log in.");
       console.log(response.data); // Optional: log user data/token
     } catch (err) {
