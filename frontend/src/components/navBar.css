@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent; /* Transparent as per your request */
+  padding: 1rem 2rem;
+  color: var(--text-color);
+  box-shadow: 0 8px 20px rgba(74, 82, 204, 0.2);
+  border-bottom: 1px solid #4a52cc;
+  position: static;
+  top: 0;
+  z-index: 10;
+  backdrop-filter: blur(12px); /* Optional: smooth frosted glass effect */
+  -webkit-backdrop-filter: blur(12px);
+}
+
+/* Logo */
+navbar-logo {
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 30px;
+  transform: scale(3);
+  width: auto;
+  cursor: pointer;
+}
+
+
+
+/* Link container */
+.navbar-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* Links */
+.navbar-links a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
+/* Hamburger icon */
+.hamburger {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: var(--primary);
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    background-color: rgba(229, 232, 255, 0.95); /* soft light blue for mobile menu */
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .navbar-links.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

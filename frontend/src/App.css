@@ -1,0 +1,41 @@
+:root {
+  --primary: #646cff;
+  --primary-light: #a5a9ff;
+  --primary-dark: #4a52cc;
+
+  --bg-color: #f5f6ff;
+  --text-color: #1c1c3b;
+  --input-color: #1c1c3b;
+  --bg-Btn-input-timer: #e3e6ff;
+  --bg-topT-Log-out: #f5f6ff;
+}
+
+
+
+
+body{
+
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', sans-serif;
+
+}
+
+
+
+/* Make root full height */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ensure main content grows and footer goes to bottom */
+body > #root > div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+

@@ -1,0 +1,13 @@
+.not-logged-in{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-logged-in a{
+    color: var(--text-color);
+}
+.not-logged-in a:hover{
+    color: var(--primary-dark);
+}

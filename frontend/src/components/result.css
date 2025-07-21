@@ -1,0 +1,61 @@
+.result-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.result-card {
+  background-color: var(--bg-color);
+  border-radius: 16px;
+  border: 1px solid var(--primary-light);
+  box-shadow: 0 8px 20px rgba(74, 82, 204, 0.2);
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  text-align: center;
+}
+
+.wpm-value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: var(--primary-dark);
+}
+
+.wpm-unit {
+  font-size: 1.2rem;
+  color: var(--primary);
+}
+
+.wpm-box p {
+  margin: 0;
+}
+
+.wpm-label {
+  font-size: 1rem;
+  color: var(--text-color);
+}
+
+.stats-box table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.stats-box th,
+.stats-box td {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-bottom: 1px solid var(--primary-light);
+}
+
+.stats-box th {
+  text-align: left;
+  color: var(--primary-dark);
+}
+
+.stats-box td {
+  text-align: right;
+  font-weight: bold;
+  color: var(--input-color);
+}
