@@ -22,7 +22,7 @@ export default function Login() {
 
   const onSubmit = async (data) => {
     try {
-      const response = await axios.post("http://localhost:5000/api/auth/login", data);
+      const response = await axios.post("https://typingapp-backend.onrender.com/api/auth/login", data);
 
       const { token, username } = response.data;
 
