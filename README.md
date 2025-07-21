@@ -26,7 +26,7 @@ A sleek and responsive typing speed test app built with React and Vite. This app
 - **React Router DOM** (if routing is enabled)
 - **LocalStorage** (for theme toggle or persistent settings)
 
-### Backend *(if present)*
+### Backend 
 - **Node.js**
 - **Express**
 - **MongoDB** (with connection string stored securely via `.env`)
