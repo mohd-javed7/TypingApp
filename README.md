@@ -31,3 +31,12 @@ A sleek and responsive typing speed test app built with React and Vite. This app
 - **Express**
 - **MongoDB** (with connection string stored securely via `.env`)
 - **Mongoose**
+
+--- 
+
+Screenshots of the app
+
+<img width="1366" height="768" alt="{B326914A-A5AD-4098-8FF3-97B1E2445C21}" src="https://github.com/user-attachments/assets/989b0894-3371-4f29-817e-e99da369e9f6" />
+
+---
+---
