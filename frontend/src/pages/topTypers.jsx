@@ -23,7 +23,7 @@ function Leaderboard({ wpm, username }) {
 
   const sendToDatabase = async ({ username, wpm }) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/leaderboard', {
+      const response = await axios.post('https://typingapp-backend.onrender.com/api/leaderboard', {
         username,
         wpm,
       });
