@@ -1,5 +1,5 @@
 import React from "react";
-import "./Sidebar.css";
+import "./sideBar.css";
 import { Link } from "react-router-dom";
 import { useAuth } from "../authContext";
 
