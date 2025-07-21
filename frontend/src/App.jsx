@@ -13,6 +13,7 @@ import { AuthProvider } from './authContext';
 import Leaderboard from './pages/topTypers';
 import Advance from './pages/advance';
 import CustomWords from './pages/customWords';
+import About from './pages/about';
 
 
 
@@ -53,6 +54,10 @@ function App() {
     {
       path: "/custom-words",
       element: <><NavBar /><Sidebar /> <CustomWords/></>
+    },
+    {
+      path: "/about",
+      element: <><NavBar /><Sidebar /> <About/></>
     }
   ])
   return (
