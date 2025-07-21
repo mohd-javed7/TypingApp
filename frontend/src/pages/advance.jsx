@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import resetIcon from '../assets/reset-svgrepo-com.svg';
-import './Advance.css';
+import './advance.css';
 import ResultCard from '../components/resultCard';
 import { ClipLoader } from "react-spinners";
 
