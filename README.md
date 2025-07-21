@@ -36,6 +36,8 @@ A sleek and responsive typing speed test app built with React and Vite. This app
 
 Screenshots of the app
 
+<img width="1366" height="768" alt="{C13F6BB9-2D02-422A-B5B2-809E1C6FB0C6}" src="https://github.com/user-attachments/assets/7738dfe1-52b0-4bd5-b4fd-3089b92c7452" />
+
 <img width="1366" height="768" alt="{B326914A-A5AD-4098-8FF3-97B1E2445C21}" src="https://github.com/user-attachments/assets/989b0894-3371-4f29-817e-e99da369e9f6" />
 
 <img width="1366" height="768" alt="{1535D98F-34DF-45BB-A551-0A6175F3042D}" src="https://github.com/user-attachments/assets/708bc6fe-246b-46d9-af21-db72f534743d" />
