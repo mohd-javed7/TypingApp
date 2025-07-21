@@ -7,8 +7,13 @@ const leaderboardRoutes = require('./routes/leaderboard');
 require('dotenv').config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: "https://typer-ivory.vercel.app", 
+  credentials: true
+}));
 app.use(express.json())
+app.use(express.urlencoded({ extended: true }));
+
 
 mongoose.connect(process.env.MONGO_URI)
     .then(() => console.log("MongoDB connected."))
