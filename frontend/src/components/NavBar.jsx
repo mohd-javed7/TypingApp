@@ -1,7 +1,7 @@
 import React, { useState, useContext } from "react";
 import logo0 from '../assets/logo2.png';
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./navbar.css";
 import { AuthContext } from "../authContext";
 import { useAuth } from "../authContext";
 
