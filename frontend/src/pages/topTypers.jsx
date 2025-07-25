@@ -38,7 +38,7 @@ function Leaderboard({ wpm, username }) {
   useEffect(() => {
     const recFromDatabase = async () => {
       try {
-        const response = await axios.get('http://localhost:5000/api/leaderboard');
+        const response = await axios.get('https://typingapp-backend.onrender.com/api/leaderboard');
         setData(response.data); //  Array of { username, wpm, date }
       } catch (err) {
         console.error('Failed to fetch leaderboard:', err);
