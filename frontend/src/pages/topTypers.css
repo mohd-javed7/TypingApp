@@ -37,7 +37,7 @@
   }
   
   .leaderboard-table tbody tr:nth-child(odd) {
-    background: #e9eafc;
+    background: var(--primary-dark);
   }
   
   .leaderboard-table tbody tr:first-child td {
