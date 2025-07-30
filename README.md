@@ -23,7 +23,7 @@ A sleek and responsive typing speed test app built with React and Vite. This app
 - **React** (via Vite)
 - **CSS Modules** 
 - **React Icons**
-- **React Router DOM** (if routing is enabled)
+- **React Router DOM** 
 - **LocalStorage** (for theme toggle or persistent settings)
 
 ### Backend 
